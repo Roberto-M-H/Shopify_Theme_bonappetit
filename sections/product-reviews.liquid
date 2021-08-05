@@ -1,0 +1,23 @@
+<div class="product__reviews">
+  <div class="">
+    {%- if section.settings.heading != blank -%}
+    	<h2 class="h2 text-center">{{ section.settings.heading | escape }}</h2>
+    {%- endif -%}
+    <div class="text-center">
+      <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+    </div>
+    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>    	
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Reviews",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+	  }
+	]
+  }
+{% endschema %}

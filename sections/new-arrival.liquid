@@ -1,0 +1,135 @@
+<div class="bg-color" style="background:{{section.settings.bg_color }}">
+  <div class="container">
+    <div class="sp-new-arrival">
+      <div class="new-arrival-inner">
+        <h4>{{ section.settings.main_heading }}</h4>
+        <div class="arrival-item">
+          <img class="lazyload" src="{{ section.settings.box_image1 | img_url: '' }}"
+               data-src="{{ img_url }}"
+               />
+          <div class="new-arrival-content">
+            <h3>{{ section.settings.box_heading1 }}</h3>
+            <div class="rte-setting">{{ section.settings.box_detail1 }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="new-arrival-inner">
+        <h4>{{ section.settings.main_heading }}</h4>
+        <div class="arrival-item">
+          <img class="lazyload" src="{{ section.settings.box_image2 | img_url: '' }}"
+               data-src="{{ img_url }}"
+               />
+          <div class="new-arrival-content">
+            <h3>{{ section.settings.box_heading2 }}</h3>
+            <div class="rte-setting">
+              {{ section.settings.box_detail2 }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-arrival-inner">
+        <h4>{{ section.settings.main_heading }}</h4>
+        <div class="arrival-item">
+          <img class="lazyload" src="{{ section.settings.box_image3 | img_url: '' }}"
+               data-src="{{ img_url }}"
+               />
+          <div class="new-arrival-content">
+            <h3>{{ section.settings.box_heading3 }}</h3>
+            <div class="rte-setting">{{ section.settings.box_detail3 }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "New arrival",
+    "settings": [
+		{
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background colors"
+      	},
+		{
+        "id": "main_heading",
+        "type": "text",
+        "label": "Heading"
+      	},
+		{
+        "type": "image_picker",
+        "id": "box_image1",
+        "label": "Box image1"
+        },
+		{
+        "id": "box_heading1",
+        "type": "text",
+        "label": "Box Heading1"
+      	},
+		{
+        "id": "box_detail1",
+        "type": "richtext",
+        "label": "Box description1"
+      	},
+		{
+        "type": "image_picker",
+        "id": "box_image2",
+        "label": "Box image2"
+        },
+		{
+        "id": "box_heading2",
+        "type": "text",
+        "label": "Box Heading2"
+      	},
+		{
+        "id": "box_detail2",
+        "type": "richtext",
+        "label": "Box description2"
+      	},
+		{
+        "type": "image_picker",
+        "id": "box_image3",
+        "label": "Box image3"
+        },
+		{
+        "id": "box_heading3",
+        "type": "text",
+        "label": "Box Heading3"
+      	},
+		{
+        "id": "box_detail3",
+        "type": "richtext",
+        "label": "Box description3"
+      	}
+	],
+"presets": [
+    {
+      "name": {
+        "cs": "Obrázek s textem",
+        "da": "Billede med tekst",
+        "de": "Foto mit Text",
+        "en": "New arrival",
+        "es": "Imagen con texto",
+        "fi": "Kuva tekstillä",
+        "fr": "Image avec texte",
+        "it": "Immagine con testo",
+        "ja": "テキスト付き画像",
+        "ko": "텍스트 포함 이미지",
+        "nb": "Bilde med tekst",
+        "nl": "Afbeelding met tekst",
+        "pl": "Obraz z tekstem",
+        "pt-BR": "Imagem com texto",
+        "pt-PT": "Imagem com texto",
+        "sv": "Bild med text",
+        "th": "รูปภาพพร้อมข้อความ",
+        "tr": "Metin içeren görsel",
+        "vi": "Hình ảnh có chữ",
+        "zh-CN": "带文本图片",
+        "zh-TW": "附文字的圖片"
+      }
+	}
+	]
+}
+{% endschema %}
+

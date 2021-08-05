@@ -1,0 +1,34 @@
+<div class="about-us-content">
+  <span>{{ page_title }}</span>
+	<h2> {{ section.settings.heading }}</h2>
+  <div class="rte-setting">{{ section.settings.paragraph }}</div>  
+</div>
+<div class="about-us-img">
+	<img class="feature-row__image lazyload" src="{{ section.settings.banner_image | img_url: '' }}"
+         data-src="{{ img_url }}"
+         />
+</div>
+{% schema %}
+  {
+    "name": "Text Box",
+    "settings": [
+      {
+        "id": "heading",
+        "type": "text",
+        "label": "Heading"
+      },
+      {
+        "id": "paragraph",
+        "type": "richtext",
+		"label": "Add custom text below"
+      },
+	  {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner image"
+      }
+    ]
+  }
+
+{% endschema %}
+

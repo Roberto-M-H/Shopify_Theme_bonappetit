@@ -1,0 +1,550 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_headings": "#1a1a1a",
+    "color_body_text": "#666666",
+    "color_body_links": "#1a1a1a",
+    "color_button_bg": "#1a1a1a",
+    "color_button_text": "#fff",
+    "color_sale_badge": "#dac08e",
+    "color_borders": "#eeeeee",
+    "color_nav_bg": "#000000",
+    "color_nav_text": "#ffffff",
+    "color_action_bar_bg": "#1a1a1a",
+    "color_action_bar_text": "#ffffff",
+    "color_action_bar_text_active": "#ffffff",
+    "color_drawer_bg": "#ffffff",
+    "color_drawer_text": "#1a1a1a",
+    "color_footer_bg": "#ffffff",
+    "color_footer_text": "#000000",
+    "type_header_family": "futura_n4",
+    "type_header_base_size": "25px",
+    "type_button_base_size": "16px",
+    "type_header_transform": false,
+    "type_header_spacing": "0.05em",
+    "type_base_family": "futura_n4",
+    "type_base_size": "15px",
+    "cart_type": "drawer",
+    "cart_notes_enable": false,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1a1a1a",
+    "checkout_button_color": "#1a1a1a",
+    "checkout_error_color": "#de2a2a",
+    "checkout_logo": "",
+    "checkout_use_body_background_image": false,
+    "checkout_use_header_image": false,
+    "checkout_use_sidebar_background_image": false,
+    "color_drawer_inputs": "#ffffff",
+    "favicon_enable": false,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "home_page_only": false,
+          "text": "",
+          "link": "",
+          "color_bg": "rgba(0,0,0,0)",
+          "color_text": "rgba(0,0,0,0)"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_width": "180"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slider-0": {
+            "type": "image",
+            "settings": {
+              "image_position": "center center",
+              "hero_title": "Slide",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "slider-0"
+        ],
+        "settings": {
+          "hero_home_height": "full",
+          "hero_home_auto": false,
+          "hero_home_auto_speed": 5,
+          "hero_icons_color": "#ffffff",
+          "hero_overlay_color": "#000000",
+          "hero_overlay_amount": 20
+        }
+      },
+      "rich-text": {
+        "type": "rich-text",
+        "disabled": true,
+        "settings": {
+          "home_page_full_width": false,
+          "section_title": "Talk about your brand",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "disabled": true,
+        "settings": {
+          "home_featured_products": "frontpage",
+          "product_image_type": "portrait",
+          "product_image_size": "medium",
+          "product_image_spacing": false,
+          "vendor_enable": false
+        }
+      },
+      "newsletter-signup": {
+        "type": "newsletter-signup",
+        "disabled": true,
+        "settings": {
+          "heading": "Subscribe to our newsletter",
+          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+        }
+      },
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "sidebar_top_link_list": "main-menu",
+          "sidebar_bottom_link_list": ""
+        }
+      },
+      "action-bar": {
+        "type": "action-bar",
+        "settings": {
+          "action_bar_link_list": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_link_list": "footer",
+          "show_payment_icons": false,
+          "button_label": "BACK TO MAIN WEBSITE",
+          "button_link": "#"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "skip_first_product_image": false,
+          "product_image_type": "portrait",
+          "show_vendor": false,
+          "show_quantity_selector": true,
+          "social_sharing_products": false,
+          "enable_payment_button": true,
+          "product_form_width": "small"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "product_image_type": "portrait",
+          "product_image_size": "medium",
+          "product_image_spacing": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "Related Products",
+          "vendor_enable": false
+        }
+      },
+      "product-about": {
+        "type": "product-about",
+        "settings": {
+          "bg_color": "#ffda08",
+          "section_heading": "About Us",
+          "image": "shopify:\/\/shop_images\/Travel-Los-Angeles-Huntington-Gardens_8e818b59-7516-467a-b6f0-79e9baf514b0.jpg",
+          "layout": "left",
+          "title": "Where food and culture meet lifestyle.",
+          "text": "<p>The Bazaar exists to bring like-minded makers and artisans together and to curate the great things that allow you to cook, eat, and live thoughtfully.<\/p>",
+          "button_label": "LEARN MORE",
+          "button_link": "#"
+        }
+      },
+      "related-products": {
+        "type": "related-products",
+        "settings": {
+          "show_related_products": true,
+          "related_title": "Related Products",
+          "related_grid_num": "5",
+          "related_grid_row": "1"
+        }
+      },
+      "product-reviews": {
+        "type": "product-reviews",
+        "settings": {
+          "heading": "Reviews"
+        }
+      },
+      "about-us-banner": {
+        "type": "about-us-banner",
+        "settings": {
+          "heading": "The Bon Appétit Bazaar is where food and culture meet lifestyle.",
+          "paragraph": "<p>We exist to bring like-minded makers and artisans together and to curate the great things that allow you to cook, eat, and live thoughtfully.<\/p>",
+          "banner_image": "shopify:\/\/shop_images\/Illustration_2520food_2520Thomas_2520RGB_1.png"
+        }
+      },
+      "about-us-points": {
+        "type": "about-us-points",
+        "blocks": {
+          "339406e5-f74c-49a1-aebd-dc56648a82f4": {
+            "type": "point_block",
+            "settings": {
+              "heading": "Our point of view is uniquely informed by our historical relationship to food and culture.",
+              "paragraph": "<p>Since 1956, Bon Appétit has been devoted to the intersection of food and culture, covering food through the lens of cooking, fashion, travel, technology, design and home. <\/p>"
+            }
+          },
+          "caa7d7f4-64e2-4ffb-ada1-9a5bc92a8fe5": {
+            "type": "point_block",
+            "settings": {
+              "heading": "Bon Appetit has long recognized that great food isn't just about ingredients.",
+              "paragraph": "<p>It's about everything that makes a meal—it's the platter you serve tacos on; the composter in your kitchen; the knife you take on picnics. And joyful living goes beyond just the kitchen; it’s the beeswax candles on your table, the wreath on your doorway, the linen throw that accents your couch.<\/p>"
+            }
+          },
+          "3b48c7fb-1af1-48a9-bb1f-d30e6fc75dd8": {
+            "type": "point_block",
+            "settings": {
+              "heading": "Our selection process is unlike any other.",
+              "paragraph": "<p>We leverage technology to search the internet and globe for hundreds of thousands of artisanal products. Each potential product is filtered against a set of criteria that we use to ensure every item is a fit with our vision. Next, each proposed product is evaluated by Bon Appetit’s editorial team. Only those items that make it through these two steps successfully can become part of our assortment.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "339406e5-f74c-49a1-aebd-dc56648a82f4",
+          "caa7d7f4-64e2-4ffb-ada1-9a5bc92a8fe5",
+          "3b48c7fb-1af1-48a9-bb1f-d30e6fc75dd8"
+        ],
+        "settings": {}
+      },
+      "162473842880658554": {
+        "type": "about-us",
+        "settings": {
+          "bg_color": "#ffda08",
+          "section_heading": "Welcome",
+          "image": "shopify:\/\/shop_images\/soy-basted-pork-chops-with-corn-and.jpg",
+          "layout": "left",
+          "title": "Where food and culture meet lifestyle.",
+          "text": "<p>The Bon Apetit Bazaar exists to bring like-minded makers and artisans together and to curate the great things that allow you to cook, eat, and live thoughtfully.<\/p>",
+          "button_label": "LEARN MORE",
+          "button_link": "#"
+        }
+      },
+      "1624740207bd826987": {
+        "type": "featured-collection",
+        "settings": {
+          "home_featured_products": "frontpage",
+          "product_image_type": "portrait",
+          "product_image_size": "small",
+          "product_image_spacing": true,
+          "vendor_enable": false,
+          "section_heading": "Featured",
+          "button_label": "SHOP ALL",
+          "button_link": "#"
+        }
+      },
+      "1624785769b6ec8cf4": {
+        "type": "new-arrival",
+        "settings": {
+          "bg_color": "#f8f8f8",
+          "main_heading": "NEW ARRIVALS",
+          "box_image1": "shopify:\/\/shop_images\/Dish-Decoded-Pogiboy-Washington-DC.jpg",
+          "box_heading1": "Edie Parker",
+          "box_detail1": "<p>Make a Statement While Remaining Utterly Sophisticated. The Perfect Blend of Fun & Fashion.<\/p>",
+          "box_image2": "shopify:\/\/shop_images\/Basically-Lamb-Burger.jpg",
+          "box_heading2": "Larq",
+          "box_detail2": "<p>LARQ Water Bottle Neutralizes Up To 99.9999%* Of Odor-Causing Bacteria Using UV-C Light.<\/p>",
+          "box_image3": "shopify:\/\/shop_images\/0821-Grilled_Chicken_Breasts_With_Tadka-ish_Sauce.jpg",
+          "box_heading3": "Get It Right",
+          "box_detail3": "<p>GIR's kitchen tools sport an easy-​to-clean, antimicrobial design and come in a variety of colors.<\/p>"
+        }
+      }
+    },
+    "content_for_index": [
+      "162473842880658554",
+      "1624740207bd826987",
+      "1624785769b6ec8cf4"
+    ]
+  },
+  "presets": {
+    "Black & white": {
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "checkout_accent_color": "#1a1a1a",
+      "checkout_body_background_color": "#fff",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_button_color": "#1a1a1a",
+      "checkout_error_color": "#de2a2a",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_use_body_background_image": false,
+      "checkout_use_header_image": false,
+      "checkout_use_sidebar_background_image": false,
+      "color_action_bar_bg": "#1a1a1a",
+      "color_action_bar_text": "#ffffff",
+      "color_action_bar_text_active": "#ffffff",
+      "color_body_bg": "#ffffff",
+      "color_body_headings": "#1a1a1a",
+      "color_body_links": "#1a1a1a",
+      "color_body_text": "#666666",
+      "color_borders": "#eeeeee",
+      "color_button_bg": "#1a1a1a",
+      "color_button_text": "#fff",
+      "color_drawer_bg": "#ffffff",
+      "color_drawer_inputs": "#ffffff",
+      "color_drawer_text": "#1a1a1a",
+      "color_footer_bg": "#f9f9f9",
+      "color_footer_text": "#5c5c5c",
+      "color_nav_bg": "#ffffff",
+      "color_nav_text": "#1a1a1a",
+      "color_sale_badge": "#dac08e",
+      "favicon_enable": false,
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "type_base_family": "open_sans_n4",
+      "type_base_size": "15px",
+      "type_button_base_size": "16px",
+      "type_header_base_size": "25px",
+      "type_header_family": "karla_n7",
+      "type_header_spacing": "0.05em",
+      "type_header_transform": false,
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "show_announcement": true,
+            "color_bg": "#dbc18b"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": "180"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slider-0": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slider-0"
+          ],
+          "settings": {
+            "hero_icons_color": "#ffffff",
+            "hero_overlay_color": "#000000"
+          }
+        },
+        "rich-text": {
+          "type": "rich-text",
+          "settings": {}
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "home_featured_products": "frontpage",
+            "product_image_type": "portrait",
+            "product_image_size": "medium",
+            "product_image_spacing": false
+          }
+        },
+        "newsletter-signup": {
+          "type": "newsletter-signup",
+          "settings": {}
+        },
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "sidebar_top_link_list": "main-menu",
+            "sidebar_bottom_link_list": "footer"
+          }
+        },
+        "action-bar": {
+          "type": "action-bar",
+          "settings": {
+            "action_bar_link_list": "main-menu"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_link_list": "footer"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {}
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "product_image_type": "portrait",
+            "product_image_size": "medium",
+            "product_image_spacing": false
+          }
+        }
+      },
+      "content_for_index": [
+        "rich-text",
+        "featured-collection",
+        "newsletter-signup"
+      ]
+    },
+    "Vibrant": {
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "checkout_accent_color": "#f26241",
+      "checkout_body_background_color": "#fff",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_button_color": "#1b100e",
+      "checkout_error_color": "#b01919",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_sidebar_background_color": "#f4f4f4",
+      "checkout_use_body_background_image": false,
+      "checkout_use_header_image": false,
+      "checkout_use_sidebar_background_image": false,
+      "color_action_bar_bg": "#1b100e",
+      "color_action_bar_text": "#fff",
+      "color_action_bar_text_active": "#f26241",
+      "color_body_bg": "#ffffff",
+      "color_body_headings": "#1b100e",
+      "color_body_links": "#f26241",
+      "color_body_text": "#1b100e",
+      "color_borders": "#eceff1",
+      "color_button_bg": "#1b100e",
+      "color_button_text": "#fff",
+      "color_drawer_bg": "#f6f6f6",
+      "color_drawer_inputs": "#ffffff",
+      "color_drawer_text": "#3e3e3e",
+      "color_footer_bg": "#f4f4f4",
+      "color_footer_text": "#4a4a4a",
+      "color_nav_bg": "#f26241",
+      "color_nav_text": "#ffffff",
+      "color_sale_badge": "#f26241",
+      "favicon_enable": false,
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "type_base_family": "open_sans_n4",
+      "type_base_size": "16px",
+      "type_button_base_size": "16px",
+      "type_header_base_size": "24px",
+      "type_header_family": "quantico_n7",
+      "type_header_spacing": "0.1em",
+      "type_header_transform": true,
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "show_announcement": true,
+            "color_bg": "#f6602f"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": "180"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slider-0": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slider-0"
+          ],
+          "settings": {
+            "hero_icons_color": "#ffffff",
+            "hero_overlay_color": "#000"
+          }
+        },
+        "rich-text": {
+          "type": "rich-text",
+          "settings": {}
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "home_featured_products": "frontpage",
+            "product_image_type": "landscape",
+            "product_image_size": "large",
+            "product_image_spacing": true
+          }
+        },
+        "newsletter-signup": {
+          "type": "newsletter-signup",
+          "settings": {}
+        },
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "sidebar_top_link_list": "main-menu",
+            "sidebar_bottom_link_list": "footer"
+          }
+        },
+        "action-bar": {
+          "type": "action-bar",
+          "settings": {
+            "action_bar_link_list": "main-menu"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_link_list": "footer"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "product_image_type": "landscape",
+            "product_image_size": "large",
+            "product_image_spacing": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "rich-text",
+        "featured-collection",
+        "newsletter-signup"
+      ]
+    }
+  }
+}
